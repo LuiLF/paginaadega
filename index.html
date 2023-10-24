@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+
+    <title>Document</title>
+    <style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  padding: 1.875vh; 
+  background-color: #403c3c;
+  height: auto;
+  width: auto;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 0 0 15vh 15vh; 
+  box-shadow: 0 0 3.125vh #e2e3e5; 
+}
+
+h1,
+h2,
+h3 {
+ padding: 0.3125vh;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2.8vw;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 5.6vw;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 2.2vw;
+}
+
+.h1main {
+  font-size: 6.06vh !important;
+  padding: 2.17vh;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.25vh;
+  border-radius: 1.25vh;
+}
+.buttons button {
+  width: 6.25vh;
+  height: 6.25vh;
+  font-size: 2.64vh;
+  font-weight: bold;
+  text-align: center;
+  background-color: #231f20;
+  color: #fefefe;
+  cursor: pointer;
+  border-radius: 1vh;
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
+
+.buttons button {
+  margin-left: 6.25vh;
+  margin-right: 6.25vh;
+}
+  
+  .h2main {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2vw; 
+  text-align: center;
+  padding-top: 6.52vh; 
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin: 0 0.73vw;
+  padding: 6.52vh 0 0 32.98vw; 
+  height: 26.04vh;
+}
+
+#icone {
+  background-color: #a8a9ad;
+  border-radius: 20%;
+  margin: 0;
+  align-self: center;
+  padding: 3.906vh; 
+  width: 13.02vw; 
+  height: 26.04vh;
+}
+
+.input-group {
+  padding-left: 13.02vw;
+  float: left;
+  width: 100%;
+}
+
+#backgroundmain2 {
+  padding: 0.65vh;
+  background-color: #a8a9ad;
+  border-radius: 0.655vw;
+  width: auto;
+}
+
+#h2temperatura {
+  padding: 0.65vh;
+  background-color: #a8a9ad;
+  border-radius: 1.31vw; 
+  width: 11.02vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+      
+.option-style {
+  background-color: #a8a9ad;
+  margin-left: 0.73vw;
+  padding: 0.65vh 0.73vw;
+  font-size: 1.045vw;
+  cursor: pointer;
+  margin-top: 5.21vh;
+  border-radius: 0.655vw;
+}
+
+.sectiontemperatura {
+  margin-left: 35.24vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.906vh;
+}
+
+#h2section {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.83vw;
+  text-align: center;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+#h2section span {
+  padding-top: 1.31vh;
+  border-radius: 0.655vw; 
+  background-color: #a8a9ad;
+  padding: 1.31vh;
+  padding-left: 3.66vw; 
+  padding-right: 3.66vw;
+}
+
+footer {
+  margin-bottom: 6.52vh;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480) {
+
+  body{
+    background-color: black;
+  }
+
+.h1main {
+font-size: 25px !important;
+padding: 2.17vh;
+}
+
+#background2{
+padding: 10px;
+}
+
+#icone,
+#backgroundmain2 {
+  height: auto;
+  width: auto;
+}
+
+.flex-container {
+  align-items: center;
+}
+
+#backgroundmain2 {
+  display: flex;
+}
+
+.input-group{
+  width: auto;
+  height: auto;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+.buttons button {
+margin-left: 3.125vh;
+margin-right: 3.125vh;
+}
+
+#icone {
+background-color: #a8a9ad;
+border-radius: 20%;
+margin: 0;
+align-self: flex-start;
+padding: 3.906vh;
+width: 20.04vw;
+height: 20.04vh;
+margin-left: -70px;
+}
+
+#backgroundmain2 {
+padding: 0.65vh;
+background-color: #a8a9ad;
+border-radius: 0.655vw;
+width: auto;
+}
+
+
+.h2main {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-size: 20px !important;
+text-align: center;
+position: relative;
+line-height: 1.2;
+}
+
+.sectiontemperatura {
+margin-left: 35.24vw;
+display: flex;
+align-items: center;
+margin-bottom: 3.906vh;
+
+}
+
+#h2section {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-size: 1.83vw;
+text-align: center;
+background-color: white;
+padding: 0;
+margin: 0;
+}
+
+#h2section span {
+padding-top: 1.31vh;
+border-radius: 0.655vw; 
+background-color: #a8a9ad;
+padding: 1.31vh;
+padding-left: 3.66vw; 
+padding-right: 3.66vw;
+font-size: 20px;
+}
+
+.option-style {
+font-size: 12px;
+line-height: 1.5;
+padding: 10px;
+}
+
+#idtemperatura{
+margin-left: -50px;
+}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1025px) {
+
+}
+
+@media screen and (min-width: 1201px) {
+
+}
+
+
+</style>
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>MONITORAMENTO</h1>
+      <h2>ADEGA</h2>
+      <h3>ADELINO</h3>
+    </header>
+    <main>
+      <h1 id="h1main" class="h1main">Selecione o sensor</h1>
+      <div class="buttons">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+      </div>
+      <h2 class="h2main">Selecione uma data especifica:</h2>
+      <div class="flex-container">
+        <div>
+          <img id="icone" src="image (2).png" />
+        </div>
+        <div class="input-group">
+          <input
+            id="backgroundmain2"
+            type="date"
+            name="date_picker"
+            value="2023-09-22"
+            required
+          />
+          <div class="input-group-append"></div>
+        </div>
+      </div>
+    </main>
+    <section>
+      <h2 class="h2main">Notificações e alertas.</h2>
+      <div class="flex-container">
+        <div>
+          <img id="icone" src="image (3).png" />
+        </div>
+        <div class="input-group">
+          <p id="backgroundmain2">
+            Setor 3 registrou <br />
+            temperaturas acima <br />
+            do recomendado !
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="sectiontemperatura">
+      <h2 id="idtemperatura" class="h2main">Média de temperatura Mês:</h2>
+      <select id="month-select" class="option-style">
+        <option value="1" selected="selected">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+    </section>
+    <h2 id="h2section">
+      <span>17.80°</span>
+    </h2>
+    <section class="sectiontemperatura">
+      <h2 id="idtemperatura" class="h2main">Média de temperatura Ano:</h2>
+      <select id="year-select" class="option-style">
+        <option value="2021" selected="selected">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </select>
+    </section>
+    <h2 id="h2section">
+      <span>15.50°</span>
+    </h2>
+    <footer></footer>
+  </body>
+  </html>
+  
+</html>
